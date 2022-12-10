@@ -1,0 +1,11 @@
+.venv/
+.idea/
+.vscode/
+dist/
+staticfiles/
+__pycache__/
+
+.env
+.python-version
+*.egg-info
+*.pyc
