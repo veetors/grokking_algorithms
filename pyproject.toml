@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "grokking-algorithms"
+version = "0.0.1"
+description = "samples of Grokking Algorithms book by Aditya Y. Bhargava"
+authors = ["veetors <veetor.s@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "grokking_algorithms"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
